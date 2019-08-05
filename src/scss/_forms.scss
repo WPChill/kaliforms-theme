@@ -1,0 +1,141 @@
+fieldset {
+	margin-bottom: 1rem;
+}
+
+legend {
+    display: table;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	color: $headings-color;
+
+    + * {
+        clear: both;
+    }
+}
+
+
+label {
+    padding: 0;
+    margin: 0;
+}
+
+
+input[type=text], input[type=password], input[type=input],
+input[type=tel], input[type=url], input[type=email],
+input[type=number], input[type=range], input[type=search], input[type=color],
+input[type=time], input[type=week], input[type=month], input[type=date], input[type=datetime],
+textarea, select {
+	font-size: inherit;
+	font-family: inherit;
+	//border: 2px solid #e8e8e8;
+	border: 1px solid #e8e8e8;
+    padding: 11px 20px;
+    margin: 0;
+    width: 100%;
+	background: #fff;
+	//background: #fafafa;
+	transition: all 0.5s $easing;
+	border-radius: 8px;
+	color: #222222;
+	-webkit-appearance: textfield;
+
+	&:focus {
+		outline: none;
+		border-color: $accent-color-1;
+		box-shadow: none;
+	}
+
+	&:invalid {
+	/* 	border-color: #dd0024;
+		color: #dd0024; */
+	}
+
+	&:disabled {
+		border-color: #ececec;
+		color: #ececec;
+		cursor: not-allowed;
+	}
+
+}
+
+
+// checkbox input.
+input[type=checkbox].checkbox {
+	position: absolute; // take it out of document flow
+	opacity: 0; // hide it
+
+	& + label {
+		position: relative;
+		cursor: pointer;
+		padding: 0;
+		user-select: none;
+	}
+
+	// Box.
+	& + label:before {
+		content: '';
+		margin-right: 10px;
+		display: inline-block;
+		vertical-align: text-top;
+		width: 20px;
+		height: 20px;
+		background: white;
+		border: 2px solid #e8e8e8;
+		border-radius: 2px;
+	}
+
+	// Box hover
+	&:hover + label:before {
+		background: $accent-color-1;
+	}
+
+	// Box focus
+	&:focus + label:before {
+		box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+	}
+
+	// Box checked
+	&:checked + label:before {
+		background: $accent-color-1;
+	}
+
+	// Disabled state label.
+	&:disabled + label {
+		color: #b8b8b8;
+		cursor: auto;
+	}
+
+	// Disabled box.
+	&:disabled + label:before {
+		box-shadow: none;
+		background: #ddd;
+	}
+
+	// Checkmark. Could be replaced with an image
+	&:checked + label:after {
+		content: '';
+		position: absolute;
+		left: 5px;
+		top: 9px;
+		background: white;
+		width: 2px;
+		height: 2px;
+		box-shadow:
+		2px 0 0 white,
+		4px 0 0 white,
+		4px -2px 0 white,
+		4px -4px 0 white,
+		4px -6px 0 white,
+		4px -8px 0 white;
+		transform: rotate(45deg);
+	}
+
+}
+
+.edd-login-remember input[type=checkbox],
+.formkit-field input,
+#edd_convertkit input {
+	@extend .checkbox;
+}

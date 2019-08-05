@@ -1,0 +1,39 @@
+.widget_categories ul {
+    list-style: none;
+}
+
+.widget_categories ul ul {
+    margin-bottom: 0;
+}
+
+.widget_categories li {
+    padding: 6.25px 0;
+    /*
+	border-bottom: 1px solid #ebebeb;
+	*/
+}
+
+.widget_categories li ul li {
+    border-bottom: 0;
+}
+
+.widget_categories li:first-child {
+    padding-top: 0;
+}
+
+.widget_categories li:last-child {
+    border-bottom: 0;
+}
+
+.widget_categories li ul li:last-child {
+    padding-bottom: 0;
+}
+
+.widget_categories li span {
+    float: right;
+    display: none;
+}
+
+.widget_categories select {
+    margin-bottom: 0;
+}

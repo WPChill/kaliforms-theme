@@ -1,0 +1,65 @@
+.menu-icon {
+	display: inline-block;
+	padding: 30px 10px;
+	position: relative;
+	user-select: none;
+	cursor: pointer;
+}
+
+.menu-icon__navicon {
+	display: block;
+	position: relative;
+	transition: background-color 0.6s $easing;
+	height: 3px;
+	width: 24px;
+	background-color: $headings-color;
+	border-radius: 2px;
+
+	&:before,
+	&:after {
+		background-color: $headings-color;
+		content: '';
+		display: block;
+		height: 3px;
+		position: absolute;
+		transition: all 0.6s $easing;
+		border-radius: 2px;
+	}
+
+	&:before {
+		top: 8px;
+		width: 75%;
+	}
+
+	&:after {
+		top: -8px;
+		width: 50%;
+	}
+}
+
+.menu-icon--open {
+
+	.menu-icon__navicon {
+		background: transparent !important;
+
+		&:before {
+			top: 0;
+			transform: rotate(-45deg);
+			width: 100%;
+		}
+
+		&:after {
+			top: 0;
+			transform: rotate(45deg);
+			width: 100%;
+		}
+	}
+
+}
+
+
+@include media-breakpoint-up(md) {
+	.menu-icon {
+		display: none;
+	}
+}

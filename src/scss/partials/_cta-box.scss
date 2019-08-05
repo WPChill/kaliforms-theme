@@ -1,0 +1,18 @@
+.cta-box {
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 1px 1px 0 rgba(9, 30, 65, 0.14);
+	background: #fff;
+
+	h5 {
+		font-weight: 600;
+	}
+
+	img {
+		position: relative;
+		width: 100%;
+		//left: -20%;
+		max-width: none;
+		margin-bottom: -2rem;
+	}
+}

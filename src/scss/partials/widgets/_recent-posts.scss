@@ -1,0 +1,25 @@
+.widget_recent_entries ul {
+    list-style: none;
+}
+
+.widget_recent_entries ul li {
+    position: relative;
+    padding: 12.5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.widget_recent_entries ul li:first-child {
+    padding-top: 0;
+}
+
+.widget_recent_entries ul li:last-child {
+    border-bottom: 0;
+}
+
+.widget_recent_entries ul li a {
+    display: block;
+}
+
+.widget_recent_entries ul li .post-date {
+    display: block;
+}

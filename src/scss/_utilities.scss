@@ -1,0 +1,9 @@
+@import "utilities/display";
+@import "utilities/text";
+@import "utilities/float";
+@import "utilities/spacing";
+@import "utilities/flex";
+
+.last-child-mb-0 > *:last-child {
+	margin-bottom: 0 !important;
+}

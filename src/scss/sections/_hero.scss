@@ -1,0 +1,72 @@
+.hero-section {
+	position: relative;
+	background: #F7F8FC;
+	//color: ( $headings-color, 10% );
+	overflow: hidden;
+	background: linear-gradient(45deg, $light-gray 20%, darken( $light-gray, 5%) 100%);
+	padding-bottom: rem( 800px );
+
+	p {
+		color: #a1a8b7;
+	}
+
+}
+
+.hero-section__illustration {
+	width: 130%;
+	margin-left: -15%;
+}
+
+.hero-section__illustration #form-1,
+.hero-section__illustration #form-2,
+.hero-section__illustration #form-3,
+.hero-section__illustration #form-4,
+.hero-section__illustration #form-5 {
+ 	animation-name: animation-1;
+	animation-duration: 1s;
+	animation-timing-function: $easing;
+	animation-iteration-count: 1;
+	transform: scale(0.8);
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.hero-section__illustration #form-1 {
+	transform-origin: 80% 60%;
+	animation-delay: 2.2s;
+}
+
+.hero-section__illustration #form-2 {
+	transform-origin: 61% 74%;
+	animation-delay: 1.4s;
+}
+
+.hero-section__illustration #form-3 {
+	transform-origin: 50% 50%;
+	animation-delay: 1s;
+}
+
+.hero-section__illustration #form-4 {
+	transform-origin: 14% 24%;
+	animation-delay: 1.8s;
+}
+
+.hero-section__illustration #form-5 {
+	transform-origin: 49% 50%;
+	animation-delay: 2.6s;
+}
+
+@include media-breakpoint-up(lg) {
+	.hero-section p {
+		font-size: rem(18px);
+	}
+}
+
+@include media-breakpoint-up(xl) {
+ 	.hero-section__illustration {
+		width: 160%;
+		margin-left: -30%;
+	}
+}
+
+

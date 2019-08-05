@@ -1,0 +1,34 @@
+.wp-block-table {
+	display: block;
+	min-width: 240px;
+	width: 100%;
+
+	&.alignleft, &.alignright, &.aligncenter {
+		display: block;
+		width: 100%;
+	}
+
+	&.alignwide {
+		margin-left  : 0px;
+		margin-right : 0px;
+
+		@include media-breakpoint-up(md) {
+			margin-left  : -110px;
+			margin-right : -110px;
+			width: calc( 100% + 220px );
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+ 	.wp-block-table {
+		overflow-x: scroll;
+
+		> tbody {
+			display: block;
+			min-width: 768px;
+		}
+	}
+}

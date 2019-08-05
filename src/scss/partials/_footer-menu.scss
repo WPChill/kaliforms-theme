@@ -1,0 +1,23 @@
+.footer-menu {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-menu li {
+	float: left;
+	margin: 0;
+	list-style: none;
+}
+
+.footer-menu a {
+	padding: 0 15px;
+}
+
+.footer-menu li:first-child a {
+	padding-left: 0;
+}
+
+.footer-menu li:last-child a {
+	padding-right: 0;
+}

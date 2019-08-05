@@ -1,0 +1,43 @@
+.services-section {
+	background:$accent-color-1;
+	background: linear-gradient(135deg, $accent-color-1 20%, $accent-color-2 100%);
+	padding-top: rem( 70px + 40px );
+
+	color: rgba(255,255,255,0.6);
+	position: relative;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+
+	hr {
+		height: 1px;
+		width: 100%;
+		border: none;
+		border-bottom: 2px dashed rgba(255, 255, 255, 0.1);
+	}
+
+}
+
+.services-section__bg {
+	background: url(../img/bg-1.svg) no-repeat 90% 50%;
+	background-size: 120%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.service {
+
+	svg {
+		width: 50px;
+	}
+
+	> a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+}

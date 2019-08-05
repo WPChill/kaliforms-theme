@@ -1,0 +1,16 @@
+.rounded-box {
+	background: #fff;
+	box-shadow: 0 1px 1px 0 rgba(9,30,65,.14);
+	border-radius: 8px;
+	position: relative;
+
+	& > :last-child {
+		margin-bottom: 0 !important;
+	}
+}
+
+@include media-breakpoint-up(sm) {
+	.rounded-box {
+		padding: rem(30px) rem(30px);
+	}
+}

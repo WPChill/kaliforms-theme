@@ -1,0 +1,28 @@
+.feature-section {
+	background: #fff;
+
+	p {
+		color: #a1a8b7;
+	}
+}
+
+.feature-section-2 {
+	background: $light-gray;
+}
+
+
+@include media-breakpoint-up(lg) {
+
+	.feature-section p {
+		font-size: rem(17px);
+	}
+
+	.feature-section {
+		.illustration {
+		/* 	width: 40vw;
+			max-width: 960px; */
+		}
+	}
+
+}
+

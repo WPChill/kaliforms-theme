@@ -1,0 +1,93 @@
+.button,
+input[type=button],
+input[type=submit] {
+    position: relative;
+    display: inline-block;
+	border: 2px solid $accent-color-1;
+    padding: 14px 32px;
+    color: #fff;
+    text-align: center;
+	border-radius: 30px;
+    cursor: pointer;
+	background: $accent-color-1;
+	//background: linear-gradient(180deg, $accent-color-1 60%, darken( $accent-color-1, 6%) 100%);
+	transition: all 0.5s $easing;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	font-family: inherit;
+	font-size: inherit;
+	text-decoration: none;
+    white-space: normal;
+    overflow-wrap: break-word;
+	box-shadow:  0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+
+	&:hover {
+		background-color: #fff;
+		border-color: #fff;
+		color: $headings-color;
+		box-shadow: 0 20px 40px -5px rgba(9,30,66, 0.25);
+	}
+
+	&:active {
+		top: 1px;
+	}
+
+	&:before, &:after {
+		display: none;
+	}
+}
+
+.button--small {
+    padding: 8px 22px;
+}
+
+.button--medium {
+}
+
+.button--large {
+	padding: 15px 36px;
+}
+
+.button--xl {
+	padding: 16px 42px;
+
+	@include media-breakpoint-up(lg) {
+		//padding: 20px 46px;
+	}
+}
+
+
+.button--white {
+	background-color: #fff;
+	border-color: #fff;
+	color: $headings-color;
+}
+
+.button--link:hover {
+	background: transparent;
+	color: $accent-color-2;
+	box-shadow: none;
+
+	&:before {
+		transform: scaleX(1);
+	}
+}
+
+
+.button--download-icon {
+	background-color: $accent-color-1;
+	border-color: $accent-color-1;
+	background-image: url(../img/download-icon.svg);
+	background-repeat: no-repeat;
+	background-position: 20px 48%;
+	background-size: 22px;
+	padding-left: 49px;
+}
+
+.wp-block-button {
+	margin-bottom: 0;
+}
+
+.wp-block-button__link {
+	@extend .button;
+}

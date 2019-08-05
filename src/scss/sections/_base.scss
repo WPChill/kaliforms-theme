@@ -1,0 +1,20 @@
+.section {
+	padding: rem(60px) 0;
+}
+
+.section__heading {
+	margin-bottom: 3.5rem;
+
+	p {
+		font-size: rem(18px);
+	}
+}
+
+
+
+@include media-breakpoint-up(lg) {
+	.section__heading h2 {
+		//font-size: rem(36px);
+		//line-height: 1.14;
+	}
+}

@@ -1,0 +1,40 @@
+.topbar-section {
+	color: rgba(255,255,255,0.85);
+	background: $accent-color-1;
+	position: relative;
+	overflow: hidden;
+	transition: all 1.2s $easing;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+	.button {
+		padding: 2px 14px;
+		margin-bottom: 0;
+	}
+
+}
+
+.topbar-section--closed {
+	height: 0px;
+	padding: 0;
+}
+
+.topbar-section__close {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	cursor: pointer;
+	transition: transform 0.6s $easing;
+	@extend .icon;
+	@extend .icon-cancel;
+	background-size: 26%;
+	filter: invert(100%);
+
+	&:hover {
+		transform: rotate(90deg);
+	}
+}

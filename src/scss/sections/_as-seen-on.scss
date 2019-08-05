@@ -1,0 +1,37 @@
+.as-seen-on-section {
+	background: #F7F8FC;
+}
+
+.as-seen-on-section__images {
+	justify-content: center;
+	align-items: center;
+
+	> div {
+	 	display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2rem;
+	}
+
+
+
+}
+
+
+
+.as-seen-on-section__img {
+	height: 32px;
+
+	svg {
+		display: block;
+		height: 100%;
+		width: auto;
+		max-width: none;
+		transition: filter 0.6s $easing;
+
+		&:hover {
+			filter: brightness(0);
+		}
+	}
+
+}

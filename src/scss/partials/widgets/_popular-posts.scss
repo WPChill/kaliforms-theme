@@ -1,0 +1,17 @@
+.widget--popular-posts ul {
+	padding-left: 0;
+}
+
+.widget--popular-posts ul li{
+	list-style: none;
+	padding: 0px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.widget--popular-posts ul li:last-child {
+    border-bottom: 0;
+}
+
+.widget--popular-posts ul li a {
+	text-decoration: none;
+}

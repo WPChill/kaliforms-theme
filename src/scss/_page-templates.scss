@@ -1,0 +1,187 @@
+.page-template-pricing {
+	.as-seen-on-section {
+		background: #fff;
+	}
+	.faq-section {
+		padding-top: 0;
+	}
+}
+
+.page-contact-us {
+
+}
+
+.post-layout-default {
+
+	.title-single__thumbnail img{
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.post-wrap {
+		background-color: #FFF;
+		box-shadow: 0 1px 1px 0 rgba(9,30,65,.14);
+		border-radius: 8px;
+	}
+
+}
+
+.page-template-checkout {
+	.main-section {
+		font-size: 16px;
+		background: $light-gray;
+	}
+}
+
+.page-template-account {
+	.main-section {
+		font-size: 16px;
+		background: $light-gray;
+	}
+}
+
+.page-template-demo {
+
+	.accordion {
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: -3px 2px 70px 0px rgba(128, 144, 174, 0.16);
+		font-size: 16px;
+	}
+}
+
+.page-template-documentation {
+	.title-section {
+		input {
+			background-color: #fff;
+		}
+	}
+
+	.main-section {
+		background: $light-gray;
+	}
+}
+
+.single-docs {
+
+	.main {
+		background: #fff;
+	}
+
+	.entry-content {
+		clear:both;
+	}
+
+	.wedocs-breadcrumb {
+		padding: 0;
+
+		li {
+			float: left;
+			list-style: none;
+
+			&.delimiter { margin: 0 10px; }
+			&:last-child { display: none; }
+		}
+	}
+
+	.wedocs-feedback-wrap {
+		border-top: 1px solid #e8e8e8;
+		border-bottom: 1px solid #e8e8e8;
+		text-align: left;
+		padding: 20px 0;
+		margin: 20px 0 0;
+
+		a {
+			background: #fff;
+			border: none;
+			border-bottom: 1px solid;
+			color: $text-color;
+		}
+
+		a.positive {
+			border-color: $accent-color-1;
+			&:hover { background: $accent-color-1; }
+		}
+		a.negative{
+			border-color: #dd0024;
+			&:hover { background: #dd0024; }
+		}
+
+	}
+}
+
+.page-template-purchase-confirmation {
+
+	@include media-breakpoint-up(lg) {
+		.illustration {
+			width: 40vw;
+			max-width: 960px;
+		}
+	}
+
+}
+
+.page-template-become-an-affilliate {
+
+	@include media-breakpoint-up(md) {
+		.main-section .row {
+			margin-bottom: 4rem;
+		}
+
+	}
+
+ 	@include media-breakpoint-up(lg) {
+		.illustration {
+			width: 40vw;
+			max-width: 960px;
+		}
+	}
+
+}
+
+.page-template-knowledgebase {
+	.main .container {
+		margin-top: -55px;
+
+		@include media-breakpoint-up(sm) {
+			margin-top: -114px;
+		}
+	}
+
+	.doc-search {
+		margin-bottom: 20px;
+		@include media-breakpoint-up(sm) {
+			margin-bottom: 60px;
+		}
+	}
+
+}
+
+.single-knowledge-base {
+	.main {
+		padding: 1.5rem 0 3rem;
+	}
+}
+
+.search .title-section .widget_search {
+	.searchform {
+		max-width: none;
+	}
+
+	input[type="text"] {
+		padding: 9px 20px;
+	}
+}
+
+.page-subscription-confirmed {
+	background: #fff;
+
+	.main-section {
+		padding-bottom: 0 !important;
+	}
+
+	.wp-image-211 {
+		box-shadow: none;
+		display: block;
+	}
+}

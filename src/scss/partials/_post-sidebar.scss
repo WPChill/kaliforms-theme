@@ -1,0 +1,29 @@
+.post-sidebar {
+	font-size: 16px;
+	position: relative;
+}
+
+
+@include media-breakpoint-up(lg) {
+	.post-sidebar.stick {
+		position: fixed;
+		top: 190px;
+		left: 50%;
+		width: 210px;
+		margin-left: -465px;
+	}
+
+	.post-sidebar.invisible {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+}
+
+
+@include media-breakpoint-up(xl) {
+	.post-sidebar.stick {
+		width: 295px;
+		margin-left: -634px;
+	}
+}

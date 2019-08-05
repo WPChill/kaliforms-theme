@@ -1,0 +1,13 @@
+.entry-meta {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	@include media-breakpoint-up(sm) {
+		justify-content: flex-start;
+	}
+
+	> span {
+		margin: 0 10px;
+	}
+}

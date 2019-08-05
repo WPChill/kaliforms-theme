@@ -1,0 +1,24 @@
+.widget {
+	margin-bottom: 3rem;
+}
+
+@include media-breakpoint-up(sm) {
+
+	.widget:last-child {
+        margin-bottom: 0 !important;
+    }
+
+}
+
+/**
+* 1. The last element of every widget shouldn't have a margin bottom. used for spacing purposes
+*/
+.widget > *:last-child {
+	margin-bottom: 0 !important;
+    /* 1 */
+}
+
+.widget-title {
+	font-size: 18px;
+}
+

@@ -1,0 +1,18 @@
+.pricing-section {
+	background: url(../img/illustration-7.svg) no-repeat 44% 33%;
+	background-size: 110%;
+
+
+	.pricing-message {
+		background: #fff;
+		border-radius: 8px;
+		box-shadow: 0 1px 1px 0 rgba(9,30,65,.14);
+		transition: all 0.6s $easing;
+		transform: translateY(0px);
+
+		&:hover {
+			box-shadow: 0 20px 40px -5px rgba(9,30,66, 0.25);
+			transform: translateY(-10px);
+		}
+	}
+}

@@ -1,0 +1,27 @@
+.wp-block-quote {
+    padding-left: 2.5rem !important;
+
+	cite {
+		display: flex;
+		align-items: center;
+
+		> * {
+			margin-left: 8px;
+			margin-right: 8px;
+		}
+
+		> *:first-child {
+			margin-left: 0;
+		}
+
+		> *:last-child {
+			margin-right: 0;
+		}
+
+		img {
+			border-radius: 50%;
+			width: 40px !important;
+			height: 40px !important;
+		}
+	}
+}

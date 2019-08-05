@@ -1,0 +1,4 @@
+affiliate wp backend settings,
+edd backend settings (checkout vat bo, checkout cc payment method not loading, site dies when trying to buy something)
+copy
+multilanguage
