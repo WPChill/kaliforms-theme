@@ -17,7 +17,7 @@
 				<h2>Learn more about our Affiliate Program<span class="has-primary-color">!</span></h2>
 				<p>First things first, affiliates are a very important part of our growth strategy. </p>
 				<p>We have many successful affiliate partners who profit from our program because of our continued commitment to creating opportunities for our affiliates to earn commissions.</p>
-				<p>As an affiliate, you’ll earn a 20% commission from everyone you refer.</p>
+				<p>As an affiliate, you’ll earn a <?php echo affiliate_wp()->settings->get( 'referral_rate', 20 ); ?>% commission from everyone you refer.</p>
 			</div>
 		</div>
 
