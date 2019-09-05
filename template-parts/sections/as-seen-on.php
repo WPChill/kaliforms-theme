@@ -33,11 +33,7 @@
 					<?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/themeisle.svg' ); ?>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="as-seen-on-section__img" style="height:30px;">
-					<?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/winning-wp.svg' ); ?>
-				</div>
-			</div>
+			
 			<div class="col-sm-6 col-md-3">
 				<div class="as-seen-on-section__img" style="height:26px;">
 					<?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/wp-engine.svg' ); ?>
@@ -46,6 +42,11 @@
 			<div class="col-sm-6 col-md-3">
 				<div class="as-seen-on-section__img" style="height:38px;">
 					<?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/wplift.svg' ); ?>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="as-seen-on-section__img grayscl" style="height:38px;">
+					<?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/wpbuffs-full-logo.svg' ); ?>
 				</div>
 			</div>
 		</div>

@@ -173,3 +173,13 @@ function theme_pre_get_posts( $query ) {
 	}
 	return $query;
 }
+
+
+add_filter( 'register_post_type_args', 'theme_custom_post_type_args', 20, 2 );
+function theme_custom_post_type_args( $args, $post_type ) {
+    if ( $post_type === "docs" ) {
+        $args['rewrite']['with_front'] = false;
+    }
+
+    return $args;
+}
