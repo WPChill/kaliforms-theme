@@ -5,7 +5,7 @@
 		<div class="section__heading row justify-content-center">
 			<div class="col-lg-6 text-center">
 				<h2>Frequently Asked Questions<span class="has-primary-color">.</span></h2>
-				<p>Still have questions? These are some frequently asked questions, but, if your question is not listed feel free to check our <br/><a href="/docs">documentation</a> or <a href="/contact">contact us.</a></p>
+				<p>Still have questions? These are some frequently asked questions, but, if your question is not listed feel free to check our <br/><a href="/docs">documentation</a> or <a href="/contact-us">contact us.</a></p>
 			</div>
 		</div>
 
