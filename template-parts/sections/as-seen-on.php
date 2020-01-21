@@ -10,12 +10,12 @@
 		<div class="row as-seen-on-section__images">
 			<div class="col-sm-6 col-md-3">
 				<div class="as-seen-on-section__img">
-					<?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/codeinwp.svg' ); ?>
+					<a href="https://www.codeinwp.com"><?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/codeinwp.svg' ); ?></a>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<div class="as-seen-on-section__img" style="height:26px;">
-					<?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/colorlib.svg' ); ?>
+                    <a href="https://colorlib.com"><?php echo file_get_contents( get_template_directory_uri() . '/assets/img/logos/colorlib.svg' ); ?></a>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-3">
