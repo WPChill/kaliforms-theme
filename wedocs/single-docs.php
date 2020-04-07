@@ -37,7 +37,7 @@
 			<?php if ( have_posts() ) : ?>
 				<?php while ( have_posts() ) : ?>
 					<?php the_post(); ?>
-					<div class="post-content col-lg-6">
+					<div class="post-content col-lg-8">
 						<?php
 							the_content( sprintf(
 								/* translators: %s: Name of current post. */

@@ -20,7 +20,7 @@
 
 					<div class="title-single__meta mb-4">
 						<span class="title-single__author">
-							by <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php echo get_the_author(); ?></a>
+							by <?php echo get_the_author(); ?>
 						</span>
 
 						<span class="title-single__date">

@@ -3,7 +3,18 @@
 	margin-bottom: 2em;
 
 	img {
-		box-shadow: -3px 2px 70px 0px rgba(0,0,0,.03);
+		box-shadow: 0 4px 8px 0 rgba(67,65,78,.08);
+		border-radius: 4px;
+	}
+
+	figcaption {
+		font-style: italic;
+		color: #c4c4c4;
+		font-weight: 300;
+		font-size: smaller;
+		padding: 5px;
+		margin: 0 auto;
+		margin-bottom: 1em;
+		text-align: right;
 	}
 }
-
