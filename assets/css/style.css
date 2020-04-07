@@ -554,7 +554,12 @@ input[type=checkbox].checkbox, .edd-login-remember input[type=checkbox],
     background: white;
     width: 2px;
     height: 2px;
-    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+    box-shadow: 2px 0 0 white,
+ 4px 0 0 white,
+ 4px -2px 0 white,
+ 4px -4px 0 white,
+ 4px -6px 0 white,
+ 4px -8px 0 white;
     transform: rotate(45deg); }
 
 [class^="icon-"], .icon, ul.list--checkmark li:before, ul.list--docs li:before, .topbar-section__close, .accordion__title:after, .main-menu .menu-arrow, .doc-search:before, .modal__close, .nav-links .prev:before, .nav-links .next:before {
@@ -3670,7 +3675,19 @@ input[type=checkbox].checkbox, .edd-login-remember input[type=checkbox],
   margin-top: 2rem;
   margin-bottom: 2em; }
   .wp-block-image img {
-    box-shadow: -3px 2px 70px 0px rgba(0, 0, 0, 0.03); }
+    box-shadow: 0 4px 8px 0 rgba(67,65,78,.08);
+    border-radius: 4px; 
+  }
+  .wp-block-image figcaption {
+    font-style: italic;
+		color: #c4c4c4;
+		font-weight: 300;
+		font-size: smaller;
+		padding: 5px;
+		margin: 0 auto;
+		margin-bottom: 1em;
+		text-align: right;
+  }
 
 .wp-block-table {
   display: block;
