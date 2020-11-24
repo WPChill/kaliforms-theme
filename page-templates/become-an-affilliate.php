@@ -30,8 +30,7 @@
 					</div><!-- illustration -->
 				</div>
 				<div class="col-lg-6 px-lg-5 order-lg-0 mb-3 mb-lg-0">
-					<h2>Joining in<span class="has-primary-color">.</span></h2>
-					<p>Joining our affiliate program is simple. Fill out the form below to get started:</p>
+					<h2>Join now<span class="has-primary-color">.</span></h2>
                     <a class="button button--xl mb-0" target="_blank" rel="nofollow noopener noreferrer" href="https://account.shareasale.com/shareasale.cfm?merchantID=98922&storeID=2&source=affiliateSignupPage">Join our affiliate program</a>
 				</div>
 			</div>
@@ -50,7 +49,7 @@
 					<p>Have questions related to the affiliate program? Click here to <a href="/contact-us">get in touch</a>.</p>
 				</div>
 			</div>
-        
+
 
 		<div class="row align-items-center">
 			<div class="col-lg-6 order-lg-1">
