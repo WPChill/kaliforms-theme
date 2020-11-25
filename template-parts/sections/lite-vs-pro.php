@@ -1,5 +1,5 @@
 <?php
-$utm_medium = isset( $_GET['utm_medium'] ) ? $_GET['utm_medium'] : '';
+$utm_medium = isset($_GET['utm_medium']) ? $_GET['utm_medium'] : '';
 ?>
 
 <section class="section lite-vs-pro-section">
@@ -74,6 +74,17 @@ $utm_medium = isset( $_GET['utm_medium'] ) ? $_GET['utm_medium'] : '';
 
 				<div class="pricing-table row">
 					<div class="col-4">
+						Payment Processors
+					</div>
+					<div class="col-4">
+						PayPal & Stripe
+					</div>
+					<div class="col-4">
+						Only Paypal
+					</div>
+				</div><!-- row -->
+				<div class="pricing-table row">
+					<div class="col-4">
 						Number of Fields
 					</div>
 					<div class="col-4">
@@ -114,6 +125,54 @@ $utm_medium = isset( $_GET['utm_medium'] ) ? $_GET['utm_medium'] : '';
 						<span class="tooltip">
 							<i class="icon-question-circle"></i>
 							<span class="tooltip__text">Store submission data into your website database for future references.</span>
+						</span>
+					</div>
+					<div class="col-4">
+						<i class="icon-ok"></i>
+					</div>
+					<div class="col-4">
+						<i class="icon-ok"></i>
+					</div>
+				</div><!-- row -->
+
+				<div class="pricing-table row">
+					<div class="col-4">
+						Google Analytics
+						<span class="tooltip">
+							<i class="icon-question-circle"></i>
+							<span class="tooltip__text">Track user behaviour on your forms.</span>
+						</span>
+					</div>
+					<div class="col-4">
+						<i class="icon-ok"></i>
+					</div>
+					<div class="col-4">
+						<i class="icon-cancel"></i>
+					</div>
+				</div><!-- row -->
+
+				<div class="pricing-table row">
+					<div class="col-4">
+						Newsletter integration
+						<span class="tooltip">
+							<i class="icon-question-circle"></i>
+							<span class="tooltip__text">MailerLite, MailChimp, ConvertKit, ActiveCampaign, HubSpot integrations.</span>
+						</span>
+					</div>
+					<div class="col-4">
+						<i class="icon-ok"></i>
+					</div>
+					<div class="col-4">
+						<i class="icon-cancel"></i>
+					</div>
+				</div><!-- row -->
+
+				<div class="pricing-table row">
+					<div class="col-4">
+						User Registration
+						<span class="tooltip">
+							<i class="icon-question-circle"></i>
+							<span class="tooltip__text">Create, login and edit users on your website.</span>
 						</span>
 					</div>
 					<div class="col-4">
@@ -174,5 +233,3 @@ $utm_medium = isset( $_GET['utm_medium'] ) ? $_GET['utm_medium'] : '';
 
 
 </section>
-
-
