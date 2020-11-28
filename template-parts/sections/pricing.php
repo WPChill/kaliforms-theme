@@ -623,6 +623,27 @@ foreach ($download_ids as $id) {
 		</div><!-- row -->
 		<div class="pricing-table row">
 			<div class="col">
+				Webhooks
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Trigger webhooks on form events</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-cancel"></i>
+			</div>
+			<div class="col">
+				<i class="icon-cancel"></i>
+			</div>
+		</div><!-- row -->		
+		<div class="pricing-table row">
+			<div class="col">
 				Stripe integration
 				<span class="tooltip">
 					<i class="icon-question-circle"></i>
