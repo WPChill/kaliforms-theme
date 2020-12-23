@@ -96,7 +96,7 @@
 						</div>
 						<div class="col-md-9 text-center text-md-left">
 							<h5 class="mb-2">Form Templates.</h5>
-							<p class="mb-0">Stop spending ours designing forms. Start using our predesigned templates.</p>
+							<p class="mb-0">Stop spending hours designing forms. Start using our predesigned templates.</p>
 						</div>
 					</div><!-- row -->
 				</div><!-- service-2 -->
