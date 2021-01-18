@@ -581,6 +581,111 @@ foreach ($download_ids as $id) {
 		</div><!-- row -->
 		<div class="pricing-table row">
 			<div class="col">
+				Sendfox
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Add users to your Sendfox newsletter</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+		</div><!-- row -->		
+		<div class="pricing-table row">
+			<div class="col">
+				Sendinblue
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Add users to your Sendinblue newsletter</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+		</div><!-- row -->		
+		<div class="pricing-table row">
+			<div class="col">
+				Mailpoet
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Add users to your Mailpoet newsletter</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+		</div><!-- row -->
+		<div class="pricing-table row">
+			<div class="col">
+				Moosend
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Add users to your Moosend newsletter</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+		</div><!-- row -->
+		<div class="pricing-table row">
+			<div class="col">
+				Campaign Monitor
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Add users to your Campaign monitor newsletter</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+		</div><!-- row -->		
+		<div class="pricing-table row">
+			<div class="col">
 				HubSpot
 				<span class="tooltip">
 					<i class="icon-question-circle"></i>
