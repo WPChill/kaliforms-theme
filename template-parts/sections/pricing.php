@@ -683,6 +683,27 @@ foreach ($download_ids as $id) {
 			<div class="col">
 				<i class="icon-ok"></i>
 			</div>
+		</div><!-- row -->
+		<div class="pricing-table row">
+			<div class="col">
+				GetResponse
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Add users to your GetResponse newsletter</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
 		</div><!-- row -->		
 		<div class="pricing-table row">
 			<div class="col">
