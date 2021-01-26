@@ -230,7 +230,21 @@ $utm_medium = isset($_GET['utm_medium']) ? $_GET['utm_medium'] : '';
 						<i class="icon-cancel"></i>
 					</div>
 				</div><!-- row -->
-
+				<div class="pricing-table row">
+					<div class="col-4">
+						Google Sheets
+						<span class="tooltip">
+							<i class="icon-question-circle"></i>
+							<span class="tooltip__text">Send form submissions to Google Spreadsheets.</span>
+						</span>
+					</div>
+					<div class="col-4">
+						<i class="icon-ok"></i>
+					</div>
+					<div class="col-4">
+						<i class="icon-cancel"></i>
+					</div>
+				</div><!-- row -->
 				<div class="pricing-table pricing-table--last row">
 					<div class="col-4">
 					</div>
