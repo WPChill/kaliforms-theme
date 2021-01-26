@@ -875,6 +875,27 @@ foreach ($download_ids as $id) {
 				<i class="icon-cancel"></i>
 			</div>
 		</div><!-- row -->
+		<div class="pricing-table row">
+			<div class="col">
+				Google Sheets
+				<span class="tooltip">
+					<i class="icon-question-circle"></i>
+					<span class="tooltip__text">Send form submission data to Google Spreadsheets</span>
+				</span>
+			</div>
+			<div class="col">
+				<i class="icon-ok"></i>
+			</div>
+			<div class="col">
+				<i class="icon-cancel"></i>
+			</div>
+			<div class="col">
+				<i class="icon-cancel"></i>
+			</div>
+			<div class="col">
+				<i class="icon-cancel"></i>
+			</div>
+		</div><!-- row -->		
 		<div class="pricing-table pricing-table--last row">
 			<div class="col text-left">
 				<span class="mb-0"><small>Prices are listed in USD<br/> and don't include VAT</small></span>
